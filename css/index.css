@@ -1,0 +1,48 @@
+﻿@charset "UTF-8";
+
+.case .leftCase .title{font-size: 40px;line-height: 40px;position: relative;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}/*margin: 90px 0 0;*/
+/*.case .leftCase .title:before{content: '';width: 52px;height: 1px;background-color: #fff;position: absolute;left: 90px;top: 24px;}*/
+.case .leftCase .pic{position: absolute;right: 27px;top: 25px;display: none;}
+.case .leftCase .pic img{height: 84px;}
+.case .leftCase .title2{font-size: 24px;line-height: 35px;}
+.case .leftCase .text{font-size: 16px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.case .leftCase ul{padding: 0 0 0 66px;}
+.case .leftCase ul li a{color: #fff;text-align: left;border-bottom: 1px solid #fff;padding: 6px 0 2px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.case .leftCase ul li a span{font-size: 13px;text-transform: uppercase;margin: 0 6px 0 0;}
+.case .leftCase ul li a:hover{color: #70d3fe;}
+.case .bot2{display: none;}
+#baguetteBox-overlay .full-image img{border: 5px solid #fff;width: 94%;}
+#next-button.baguetteBox-button{right: 4%;}
+#previous-button.baguetteBox-button{left: 4%;}
+.blank{width: 100%;height: 100%;position: fixed;left: 0;top: 0;background-color: rgba(0,0,0,0.8);z-index: 900;display: none;}
+.case .bot{position: relative;margin: 60px 0 0;}
+#content{width: 1308px;}
+#content>div{display: none;}
+#content>div img{max-width: 100%;width: 100%;object-fit: inherit;height: 554px;}
+#content>div:nth-child(1){display: block;}
+.content2>div{display: none;}
+.content2>div:nth-child(1){display: block;}
+.case-list{color: #fff;margin: 45px 0 0;position: relative;}
+.case-list .swiper-slide{position: relative;}/*width:271px !important;margin-right: 7px !important;*/
+.case-list .swiper-slide .pic img{width: 100%;}
+.case-list .text{position: absolute;left: 0;top: 0;display: table;width: 100%;z-index: 1;background: rgba(0,0,0,0.3);color: white;}
+.case-list .text:hover{color: white;}
+.case-list .text-2{text-align: center;display: table-cell;vertical-align: middle;padding: 0 4%;font-weight: bolder;}
+.case-list .text-2 .title{line-height: 24px;}
+.case-list .text-2 p{font-size: 12px;line-height: 22px;}
+.case-list .white{position: absolute;left: 0;top: 0;right: 0;bottom: 0;background-color: #fff;z-index: 600;margin: auto;padding: 2%;color: #272727;text-align: center;transform: scale(0);opacity: 0;}
+.case-list .white.bg{width: 92%;height: 92%;transform: scale(1);}
+.case-list .white .top{border: 2px solid #000;width: 35px;padding: 5px 0 5px;}
+.case-list .white .top .num{font-size: 22px;line-height: 22px;font-weight: bolder;}
+.case-list .white .top .line{height: 15px;}
+.case-list .white .top .line img{height: 100%;}
+.case-list .white .top .top-text{font-size: 12px;line-height: 22px;}
+.case-list .white .mid{margin: 8px 0 0;}
+.case-list .white .mid .mid-1{text-transform: capitalize;font-size: 13px;line-height: 18px;}
+.case-list .white .mid .mid-2{font-size: 20px;line-height: 23px;font-weight: bolder;}
+.case-list .white .white-bot{color: #595757;position: absolute;left: 0;right: 0;bottom: 9%;margin: auto;}
+.case-list .white .white-bot .bot-1{line-height: 20px;font-size: 16px;font-weight: bolder;}
+.case-list .white .white-bot .bot-2{font-size: 12px;line-height: 16px;margin-top: 6px;}
+.case-list .arrow{position: absolute;top: 0;bottom: 0;margin: auto;width: 55px;height: 106px;}
+.case-list .swiper-button-prev{left: -84px;}
+.case-list .swiper-button-next{right: -84px;}
