@@ -23,6 +23,7 @@
     .nav .logo2 img{width: 140px;}
     .smallUl li{margin: 0 0 50px;}
     .banner{height: 100%; width: 100%; position: relative;}
+    .bd2{padding-top: 50px;}
     .banner .swiper-container{ height: 100%; position: relative;}
     .banner .swiper-slide{ width: 100% !important; overflow: hidden;}
     .banner img{position: relative; width: 100%; left: 0; margin-left: 0;height:100%;}
@@ -99,6 +100,7 @@
     .people .bot .new-right{position: relative;float: left;left: 0;top: 0;width: 70%;padding: 0 0 0 2%;display: table;}
     .people .bot .botTxt .right{right: 0;bottom: 2%;width: 100%;}
     .new-right-1{display: table-cell;vertical-align: middle;}
+    
 }
 @media screen and (max-width: 1500px){
     .case .bot .leftCase .title{font-size: 40px;line-height: 40px;}
@@ -215,9 +217,9 @@
     .sixIcon{padding:20px 3% 25px;}
     .sixIcon:after{display: none;}
     .sixIcon ul li{margin: 40px 0 0;width: 50%;}
-    .case .bot .leftCase{width: 28%;}
-    #content{width: 72%;}
-    .case .bot{display: none;}
+    .case .bot .leftCase{width: 20%;}
+    #content{width: 80%;}
+    .case .bot{display: block;}
     .case .bot2{display: block;}
     .case .bot2 .leftCase{width: 100%;float: none;margin: 20px 0 0;padding: 25px 3% 40px;}
     .case .leftCase .title{font-size: 40px;line-height: 40px;}
@@ -242,7 +244,7 @@
     .news .bot .right ul li{padding: 5px 0 7px;}
     .news .bot .right .moreTxt{margin: 20px 3% 0 0;}
     .new-bg2{width: auto;right: 0;left: 0;}
-    .case .leftCase{height: auto;}
+    .case .leftCase{height: auto; padding: 2px;}
     .people .bot .left{float: none;width: 100%;height: 100% !important;text-align: center;padding: 0;}
     .people .bot .pe-right{float: none;width: 100%;height: 100% !important;padding: 0 3% 20px;margin: 20px 0 0;}
     .people .bot .left img{position: relative;left: auto;bottom: auto;}
@@ -297,13 +299,14 @@
     .footer p{font-size: 16px;line-height: 26px;}
     .scroll-top{width: 50px;height: 50px;}
     .people{padding: 40px 0 0;}
+    
 }
 
 @media screen and (max-width: 767px){
     .xin-a,.xin-arrow{display: block;}
     .xin-case{display: block;}
     .case .bot2{display: none;}
-    .case .case-list{display: none;}
+    .case .case-list{display: block;}
     .dashed{font-size: 30px;padding-bottom: 10px;}
     .people .bot .name{left: 15%;width: 200px;}
     .people .bot .botTxt .right{line-height: 22px;}
@@ -355,7 +358,7 @@
     .header .logo img{width:100%;}
     .people .bot .text .text-2{font-size: 30px;line-height: 30px;}
     .footer p span{display: block;margin: 0;}
-    .footer{padding: 30px 0 10px;}
+    .footer{}
     .footer p{margin: 10px 0 0;}
     .showAbout .showBot .showL{width: 100%;float: none;height: 100% !important;}
     .showL-txt{position: relative;margin: 20px 0;}
@@ -392,6 +395,31 @@
     .ji .left-1 .base2-1{padding-bottom: 5px;}
     .ji .base2Title .base2-2{font-size: 14px;line-height: 14px;}
     .ji .leftBox .base2Title .base2-1{padding-bottom: 5px;}
+    .container1{width: 100%;}
+    .chuangshi{margin-bottom: 10px;}
+    .height{height: 250px;}
+    #design,#aboutus,#honor,#cases{padding: 0;}
+    .padding{padding: 0}
+    .item1{font-size: 18px;}
+    .item2{font-size: 12px;}
+    .container2{height: 200px;}
+    .footer .container span{font-size: 12px;line-height: 40px;}
+    .jieshao{width: 100%;left: 0;font-size: 12px;height: 100%;}
+    .jieshao .juzhong{width: 100%;height: 100%;}
+    .case .bot .leftCase{padding: 4px;}
+    .case .bot .leftCase .title{font-size: 20px; line-height: 20px;}
+    .case .bot .leftCase .title{font-size: 20px; line-height: 20px;}
+    .case .bot .leftCase .text{font-size: 12px; line-height: 12px;margin-top: 10px;}
+    .case .leftCase ul li a{padding: 0px;font-size: 11px;line-height: 26px;}
+    .leftCase .content2{display: none;}
+    .case .bot .leftCase ul{margin: 0;}
+    .jianjie1{width: 100%;margin-left: 0;font-size: 11px; padding: 2px 10px;line-height: 22px;}
+    #aboutus p{font-size: 16px;line-height: 36px;}
+    #team .col-md-4 h3{font-size: 16px;}
+    #team .col-md-4 p{font-size: 11px;}
+    .item3{font-size: 11px;}
+    .jieshao1{font-size: 12px;line-height: 20px;}
+    .bd2{padding-top: 50px}
 }
 @media screen and (max-width: 600px){
     .showZi .showBot .showL{width: 100%;float: none;}

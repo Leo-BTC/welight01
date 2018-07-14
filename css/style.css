@@ -269,7 +269,7 @@ opacity:0;position:absolute;top:0;left:50%;margin-left:-102px;}
 50%{-webkit-transform:translateY(3px);-ms-transform:translateY(3px);transform:translateY(3px);opacity:1}
 100%{-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px);opacity:.4}
 }
-.hover-shadow{display:inline-block;position:relative;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:-webkit-transform;transition-property:transform;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px transparent}
+.hover-shadow{display:inline-block;position:relative;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:-webkit-transform;transition-property:transform;-webkit-transform:translateZ(0);width:100%;-ms-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px transparent}
 .hover-shadow:before{pointer-events:none;position:absolute;z-index:-1;content:'';top:100%;left:5%;height:10px;width:90%;opacity:0;background:-webkit-radial-gradient(center,ellipse,rgba(0,0,0,.35) 0,rgba(0,0,0,0) 80%);background:radial-gradient(ellipse at center,rgba(0,0,0,.35) 0,rgba(0,0,0,0) 80%);-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:-webkit-transform,opacity;transition-property:transform,opacity}
 .hover-shadow:hover{-webkit-transform:translateY(-6px);-ms-transform:translateY(-6px);transform:translateY(-6px);-webkit-animation-name:hover;animation-name:hover;-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-delay:.3s;animation-delay:.3s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate}
 .hover-shadow:hover:before{opacity:.4;-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px);-webkit-animation-name:hover-shadow;animation-name:hover-shadow;-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-delay:.3s;animation-delay:.3s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate}
@@ -299,9 +299,7 @@ opacity:0;position:absolute;top:0;left:50%;margin-left:-102px;}
 #news .overly{width:100%}
 #news h2{display:none}
 #design img{width:60%}
-footer{display:none}
-.footer{display:block!important;padding:15px 0}
-.footer img{max-width:100%;margin-bottom:10px}
+
 }
 /*移动端*/
 @media(max-width:767px){
@@ -329,12 +327,33 @@ button.click .icon-bar:nth-child(3){opacity:0}
 .banner .b-logo{top:18%;width: 66%;margin: 0 auto; left: 0;}
 .banner .b-plum,.banner .b-works{width:52%;margin: 0 auto;}
 .banner .b-works{display: none;}
-.sjdwz{display: block;}
-.pcdwz{display: none;}
+.sjdwz{display: block;font-size: 16px;}
 #team .intro{    padding: 56px 22px;}
 .banner .b-txt h4{letter-spacing:0.8em;padding:0;font-size:1.5em;}
 .section-block h2.title{margin-bottom:30px;}
 .section-block h2.title,#design h3{font-size:24px;}
+.fr img{height: 100%;}
+    .width{width: 100%;}
+    .floatleft{float: left;width: 50%;}
+    .floatright{float: right;width: 50%;margin-top: -20px;}
+    .chuangshi{margin-bottom: 10px;}
+    .founder{font-size: 25px;font-weight: bold;line-height: 40px;}
+    .chuangshi{font-size: 18px;}
+    .jieshao1{font-size: 14px;line-height: 24px;}
+    .container{background-size: contain;}
+    #design .container{padding-top: 40px;}
+    #design .container .row h2{display: none;}
+    .height{height: 250px;}
+.container{width: 100%;}
+
+    .col-md-2{padding: 1%;margin-bottom: 10px;}
+    .col-md-2 img{width: 100%;}
+    .duanbiao{width: 100%;height: 100%;}
+    .jieshao{height: 100%;width: 100%;left: 0;}
+    .jieshao .juzhong{width: 100%;height: 100%;padding: 5%;}
+    #aboutus p{font-size: 20px;}
+    .bd2{padding-top: 50px;}
+    #team{padding-bottom: 30px;}
 #aboutus,#design,#service p{font-size:12px;}
 #service,.section-block{padding:30px 0}
 #service p.import,#aboutus .import{font-size:16px;}
@@ -427,3 +446,16 @@ button.click .icon-bar:nth-child(3){opacity:0}
 .jianjie1{
 	position: absolute;margin-top: -70px;min-height: 70px;width: 70%;background-color: rgba(0,0,0,0.7);color: white;padding: 5px 20px;margin-left: 15%;
 }
+.chuangshi{
+	font-size: 20px;margin-bottom: 100px;font-weight: bold;
+}
+.container2{height: 360px;}
+.founder{font-size: 30px; font-weight: bold;line-height: 50px;}
+.height{height: 350px;}
+.col-md-4{width: 33.333%;}
+.col-md-8{width: 66.666%;}
+.item1{text-align: left;color: black;font-size: 24px;}
+.item2{text-align: left;color: black;font-size: 16px;}
+.item3{font-size: 16px;}
+.footer .container span{font-size: 16px;line-height: 40px;}
+.jieshao1{font-size: 18px;line-height: 30px;}

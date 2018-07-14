@@ -320,32 +320,5 @@ $(window).load(function () {
     $(".scroll-top").click(function () {
         $("html,body").animate({scrollTop:0},500);
     });
-    $(".registerform").Validform({
-        tiptype: 1,
-        callback:function(curform){
-          var url = $(".registerform").attr('action');
-            $.ajax({
-            url: url,
-            type: 'POST',
-            dataType:'json',
-            data:$(curform[0]).serialize(),
-            success:function(data){
-                  
-                  if(data.status==1)
-                  {
-                    // 将jquery对象转为js对象 重置表单
-                    $(curform[0])[0].reset();
-                    $.Showmsg("留言成功，谢谢！");
-            setTimeout(function(){
-               $('#Validform_msg').fadeOut();
-            },1500)
-                  }
-              }
-            });
-                return false;
 
-        }
-
-
-    });
 });
