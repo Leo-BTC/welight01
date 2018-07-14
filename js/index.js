@@ -117,7 +117,7 @@
 	}
     function bannerBd2(){
       $('.banner .bd2').css({'padding-top':( $('.navbar').offset().top-$(window).scrollTop()+$('.navbar').outerHeight()) +'px'});
-      $('.banner,.banner .bd .slides-item').css({'height':$(window).height()+'px'});
+      $('.banner,.banner .bd .slides-item').css({'height':$('.flexslider .slides a img').height()+$('.navbar-default').height()+'px'});
     }
 
     function popWin(title, content) {

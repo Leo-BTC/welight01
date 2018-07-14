@@ -298,7 +298,7 @@ opacity:0;position:absolute;top:0;left:50%;margin-left:-102px;}
 #cases .caselist li{width:100%}
 #news .overly{width:100%}
 #news h2{display:none}
-#design img{width:60%}
+#design img{width:100%}
 
 }
 /*移动端*/
@@ -335,7 +335,7 @@ button.click .icon-bar:nth-child(3){opacity:0}
 .fr img{height: 100%;}
     .width{width: 100%;}
     .floatleft{float: left;width: 50%;}
-    .floatright{float: right;width: 50%;margin-top: -20px;}
+    .floatright{float: right;width: 70%;margin-top: -50px;}
     .chuangshi{margin-bottom: 10px;}
     .founder{font-size: 25px;font-weight: bold;line-height: 40px;}
     .chuangshi{font-size: 18px;}
@@ -459,3 +459,15 @@ button.click .icon-bar:nth-child(3){opacity:0}
 .item3{font-size: 16px;}
 .footer .container span{font-size: 16px;line-height: 40px;}
 .jieshao1{font-size: 18px;line-height: 30px;}
+.jianjie{position: absolute;top: 30%; right:0;width: 100%;font-size: 14px; text-align: left;line-height: 27px;}
+.case .bot .leftCase {
+    width: 21%;
+    padding: 25px 2% 40px;
+    background-color: #30a9de;
+}
+#content {
+    width: 79%;
+}
+.footer{height: 40px;width: 100%;background-color: #E1E1E7;}
+.item5{display: inline-block;float: right;}
+.gongsijianjie{width: 90%;font-size: 24px;margin-left: 5%;}
